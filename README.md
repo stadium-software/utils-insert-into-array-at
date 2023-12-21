@@ -24,7 +24,7 @@ let index = ~.Parameters.Input.Position - 1;
 let item = ~.Parameters.Input.Item;
 return [...arr.slice(0, index), item, ...arr.slice(index)];
 ```
-1. Drag a *SetValue* action into the Global Script and place it under the *JavaScript* action
+6. Drag a *SetValue* action into the Global Script and place it under the *JavaScript* action
    1. Target: = ~.Parameters.Output.Result
    2. Value: = ~.Javascript
 
