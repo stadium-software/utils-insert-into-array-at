@@ -17,7 +17,7 @@ A script to insert a value or an object into a List at a specified position
 4. Drag a *JavaScript* action into the script
 5. Add the Javascript below into the JavaScript code property
 ```javascript
-/* Stadium Script 1.0 */
+/* Stadium Script 1.0 https://github.com/stadium-software/utils-insert-into-array-at */
 let arr = ~.Parameters.Input.List;
 if (!arr) arr = [];
 let index = ~.Parameters.Input.Position - 1;
